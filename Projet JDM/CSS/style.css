@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+
+header {
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color: #9008b3cc;
+    color: #FFF;
+    padding: 3em;
+    position: relative;
+}
+
+.logo img{  
+    position: absolute;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    transition: transform 600ms ease;
+}
+
+.logo img:hover{
+    transform: rotate(180deg);
+}
+
+.sakura img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.acceuil{
+    color: black;
+}
+
+nav ul {
+    font-size: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 600ms ease;
+}
+
+nav a:hover {
+    color:#000000;
+}
+
+main {
+    font-family: 'Sedgwick Ave Display', cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#diaporama {
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.car img {
+    width: 100%;
+}
+
+.car .caption {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    transition: 300ms ease;
+}
+
+.car:hover .caption {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    color: #9108b3;
+}
+
+footer{
+    padding: 20px;   
+    background-color: grey;
+    text-align: center;
+}
+

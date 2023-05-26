@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs1.picswalls.com%2Fwallpapers%2F2014%2F01%2F22%2Fbest-black-wallpaper_052244_13.jpg&f=1&nofb=1&ipt=ad9dfa8e6de4e167a144a5e4ff1329c064e9c1b48ea8aa3098cbdebd6eb80f22&ipo=images");
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: rgba(128, 128, 128, 0.336);
+}
+
+.flex-container > div {
+    background-color: rgb(85, 85, 85);
+    margin: 40px;
+    padding: 50px;
+    font-family: Helvetica,sans-serif;
+    font-size: 10px;
+}
+
+.gateau{
+    height: 35px;
+    width: 35px;
+}
