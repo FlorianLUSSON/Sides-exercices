@@ -11,7 +11,7 @@ const commandeSchema = new mongoose.Schema({
     },
     quantité: {
         type: Number,
-        required: true,
+        required: false,
     },
 });
 

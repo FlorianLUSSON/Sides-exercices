@@ -4,7 +4,10 @@ import './App.css';
 import Nav from "./Components/Header/Header.jsx";
 import Accueil from "./Components/Accueil/Accueil.jsx"
 import Pension from "./Components/Pension/Pension.jsx"
-import Footer from "./Components/Footer/Footer.jsx"
+import DescriptionPokemon from "./Components/PokemonPage/PokemonPage";
+import Footer from "./Components/Footer/Footer.jsx";
+import Thanks from "./Components/Thanks/Thanks.jsx"
+import ComingSoon from "./Components/ComingSoon/ComingSoon";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Accueil />} />
           <Route path="/Pension" exact element={<Pension />} />
+          <Route path="/description-pokemon/:nomPokeFr" element={<DescriptionPokemon />} />
+          <Route path="/thanks" element={<Thanks />} />
+          <Route path="/comming" element={<ComingSoon />} />
         </Routes>
         <Footer />
       </Router>

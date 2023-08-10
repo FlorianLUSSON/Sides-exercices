@@ -12,7 +12,7 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    gap: 11px;
+    gap: 20px;
     width: -webkit-fill-available;
 }
 
@@ -21,6 +21,7 @@
     height: 405px;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 .Accueil #Who .Titre {
@@ -31,8 +32,8 @@
     justify-content: center;
     flex-shrink: 0;
     color: #000;
-    font-family: Inter;
-    font-size: 48px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 38px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -48,8 +49,8 @@
     justify-content: center;
     flex-shrink: 0;
     color: #000;
-    font-family: Judson;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
@@ -72,12 +73,11 @@
 .Accueil #Who .buttons .decouvrir {
     text-decoration: none;
     color: #000;
-    font-family: Inter;
-    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
 }
 
 .Accueil #colisee {
@@ -94,8 +94,8 @@
     flex-direction: column;
     justify-content: center;
     color: #000;
-    font-family: Inter;
-    font-size: 48px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 38px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -127,8 +127,8 @@
 
 .Accueil #colisee .description .text p {
     color: #000;
-    font-family: Judson;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
@@ -151,18 +151,18 @@
 .Accueil #colisee .description .text .buttons .decouvrir {
     text-decoration: none;
     color: #000;
-    font-family: Inter;
-    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
 }
 
 .Accueil #pension {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .Accueil #pension .Titre {
@@ -173,8 +173,8 @@
     justify-content: center;
     color: #000;
     text-align: center;
-    font-family: Inter;
-    font-size: 48px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 38px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -203,8 +203,8 @@
 .Accueil #pension .description .text p {
     margin-left: 55px;
     color: #000;
-    font-family: Judson;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
@@ -227,10 +227,9 @@
 .Accueil #pension .description .text .buttons .decouvrir {
     text-decoration: none;
     color: #000;
-    font-family: Inter;
-    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
 }
